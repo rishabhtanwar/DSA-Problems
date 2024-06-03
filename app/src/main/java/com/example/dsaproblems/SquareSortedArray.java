@@ -8,7 +8,7 @@ public class SquareSortedArray{
    }
    for(int i =0; i< ansArr.length; i++){
 
-   for(int j=i+1; j<ansArr.length-1; j++){
+   for(int j=i+1; j<ansArr.length; j++){
    if(ansArr[j]<ansArr[i]){
    int temp = ansArr[j];
    ansArr[j] = ansArr[i];
